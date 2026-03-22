@@ -84,6 +84,7 @@ p {
   top: 0;
   width: 100%;
   z-index: 1000;
+   background: transparent;
 }
 
 #main-navbar.scrolled .nav-inner{
@@ -95,7 +96,9 @@ p {
   justify-content: space-between;
   align-items: center;
   min-height: 4.875rem;
+  background-color: white;
 }
+
 
 .logo-link {
   display: flex;
