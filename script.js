@@ -7,6 +7,6 @@ function closeNav() {
 }
 
 window.addEventListener('scroll', () => {
-  document.getElementById('main-navbar')
+  document.getElementById('nav-inner')
     .classList.toggle('scrolled', window.scrollY > 0);
 });
