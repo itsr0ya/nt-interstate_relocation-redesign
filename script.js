@@ -6,12 +6,7 @@ function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
 
-window.addEventListener("scroll", function () {
-  const navbar = document.getElementById("main-navbar");
-
-  if (window.scrollY > 50) {
-    navbar.classList.add("scrolled");
-  } else {
-    navbar.classList.remove("scrolled");
-  }
+window.addEventListener('scroll', () => {
+  document.getElementById('main-navbar')
+    .classList.toggle('scrolled', window.scrollY > 0);
 });
