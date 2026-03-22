@@ -82,23 +82,24 @@ p {
 #main-navbar{
   position: sticky;
   top: 0;
-  width: 100%;
   z-index: 1000;
-   background: transparent;
+  background: transparent !important;
 }
 
-#main-navbar.scrolled .nav-inner{
-  background-color: #C75B12;
-}
-
-.nav-inner {
+.nav-inner{
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 4.875rem;
-  background-color: white;
+  background: white;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* only the actual nav bar changes colour */
+#main-navbar.scrolled .nav-inner{
+  background: #C75B12;
+  box-shadow: 0 0.125rem 0.625rem rgba(0,0,0,0.15);
+}
 
 .logo-link {
   display: flex;
