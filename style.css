@@ -455,28 +455,3 @@ header {
     flex-direction: column;
   }
 
-  .card-link {
-    margin-top: auto;
-  }
-
-  .hero-image img {
-    height: 26.25rem;
-  }
-
-  .hero-panel {
-    max-width: 33.75rem;
-    margin-top: -7.5rem;
-    margin-left: 1.5rem;
-    position: relative;
-    z-index: 2;
-    padding: 1.75rem;
-  }
-
-  .hero-panel h1 {
-    font-size: 2rem;
-  }
-
-  .hero-panel p {
-    font-size: 1.2rem;
-  }
-}
